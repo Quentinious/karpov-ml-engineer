@@ -8,7 +8,7 @@ from models import User, Post, Feed
 
 
 def get_user(conn: connection, user_id: int) -> Optional[User]:
-    """Загружает одного пользователя из базы данных по его Id."""
+
 
     query = """
         SELECT *
@@ -24,7 +24,7 @@ def get_user(conn: connection, user_id: int) -> Optional[User]:
 
 
 def get_post(conn: connection, post_id: int) -> Optional[Post]:
-    """Загружает один пост из базы данных по его Id."""
+
 
     query = """
         SELECT *
@@ -42,7 +42,7 @@ def get_post(conn: connection, post_id: int) -> Optional[Post]:
 def get_feed(
     conn: connection, user_id: int = None, post_id: int = None, limit: int = 10
 ) -> List[Feed]:
-    """Получает список действий пользователей с постами, включая данные о пользователях и постах."""
+
 
     if user_id is None and post_id is None:
         raise ValueError("Необходимо указать хотя бы user_id или post_id")
@@ -108,7 +108,7 @@ def get_feed(
 
 
 def get_recommended_feed(conn: connection, id: int, limit: int) -> List[Post]:
-    """Возвращает список top-N постов с наибольшим числом лайков."""
+
 
     query = """
         SELECT

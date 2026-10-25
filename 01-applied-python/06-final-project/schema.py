@@ -4,7 +4,6 @@ from pydantic import BaseModel
 
 
 class UserGet(BaseModel):
-    """Модель данных пользователя для API-ответов."""
     id: int
     gender: int
     age: int
@@ -16,14 +15,13 @@ class UserGet(BaseModel):
 
 
 class PostGet(BaseModel):
-    """Модель данных поста для API-ответов."""
+
     id: int
     text: str
     topic: str
 
 
 class FeedGet(BaseModel):
-    """Модель данных действия пользователя с постом для API-ответов."""
     user: UserGet
     post: PostGet
     user_id: int
