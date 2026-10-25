@@ -41,7 +41,6 @@ with DAG(
 
     finish = EmptyOperator(task_id="finish")
 
-    # Generate 10 Bash tasks dynamically.
     for i in range(10):
         bash_task = BashOperator(
             task_id=f"print_number_{i}",
@@ -59,7 +58,8 @@ with DAG(
 
         start >> bash_task >> wait_for_bash_tasks
 
-    # Generate 20 Python tasks dynamically.
+
+
     for i in range(20):
         python_task = PythonOperator(
             task_id=f"print_context_{i}",

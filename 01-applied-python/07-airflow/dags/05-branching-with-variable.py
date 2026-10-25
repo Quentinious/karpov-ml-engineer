@@ -21,7 +21,7 @@ def print_variable():
 
 
 def choose_course():
-    """Choose the next task based on the is_startml Airflow Variable."""
+
     is_startml = Variable.get("is_startml")
 
     if is_startml == "True":

@@ -8,7 +8,7 @@ from airflow.providers.standard.operators.python import PythonOperator
 
 
 def get_active_user():
-    """Return the user with the largest number of likes."""
+
     from psycopg2.extras import RealDictCursor
 
     postgres = PostgresHook(
@@ -38,7 +38,7 @@ def get_active_user():
 
 
 def print_result(ti):
-    """Print the query result received through XCom."""
+
     result = ti.xcom_pull(
         task_ids="postgres_query",
         key="return_value",
