@@ -1,6 +1,6 @@
 # Applied Python
 
-Restored exercises from the completed Python module. The collection covers small
+The collection covers small
 functions, tabular analysis, SQL, object models, HTTP APIs and workflow orchestration.
 
 | Section | Implementation and concepts |
@@ -14,6 +14,4 @@ functions, tabular analysis, SQL, object models, HTTP APIs and workflow orchestr
 | [Airflow](07-airflow/README.md) | Task generation, XCom, database hooks and branching |
 
 Stack: Python, Jupyter, NumPy, Pandas, PostgreSQL, psycopg2, Pydantic,
-FastAPI and Apache Airflow. Each section documents its own runtime requirements.
-These are restored practice solutions; [the audit](../AUDIT.md) records unfinished
-fragments, data dependencies and items whose authorship still needs confirmation.
+FastAPI and Apache Airflow.
