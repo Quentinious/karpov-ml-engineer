@@ -1,0 +1,77 @@
+{
+  "schema_version": 2,
+  "stage": "source-style-restoration",
+  "source_root": "KarpovCourse/ML (local; unchanged)",
+  "authorship_status": "REVIEW",
+  "notebook_execution": "Not executed on full CSV; no previously current outputs existed in the three target notebooks.",
+  "files": [
+    {
+      "source": "Metrics/HW1_new.ipynb",
+      "target": "01-data-preparation/taxi-data-preparation.ipynb",
+      "source_sha256": "254c7fa851d0d2d155af470449d30d3424b260353ae1ada0903c0019e4de869c",
+      "source_cell_count": 42,
+      "target_cell_count": 42,
+      "cell_index_mapping": "identity; zero-based; cell types and order preserved",
+      "transformations": [
+        "Source Markdown paraphrased; task and explanation sequence preserved",
+        "Source solution code and placeholders restored; only course instruction comments paraphrased",
+        "No historical source outputs transferred as current results"
+      ],
+      "instruction_comment_cells": [
+        11,
+        31,
+        36,
+        40
+      ]
+    },
+    {
+      "source": "Metrics/HW_2.ipynb",
+      "target": "02-regression-metrics/regression-error-metrics.ipynb",
+      "source_sha256": "4ac68e0c2d64946ed92ba1b750f7599ac83c185fb92dde1062f992ee501f302f",
+      "source_cell_count": 28,
+      "target_cell_count": 28,
+      "cell_index_mapping": "identity; zero-based; cell types and order preserved",
+      "transformations": [
+        "Source Markdown paraphrased; task and explanation sequence preserved",
+        "Source solution code and placeholders restored; only course instruction comments paraphrased",
+        "No historical source outputs transferred as current results"
+      ],
+      "instruction_comment_cells": [
+        7,
+        10,
+        16,
+        20,
+        23,
+        26
+      ]
+    },
+    {
+      "source": "LinearRegression/HW_3.ipynb",
+      "target": "03-linear-regression/taxi-linear-regression-from-scratch.ipynb",
+      "source_sha256": "fb6077fea65f5c0f3c5d32b6b942b8f4291f5c83b48758e42c907da92a114e2e",
+      "source_cell_count": 16,
+      "target_cell_count": 16,
+      "cell_index_mapping": "identity; zero-based; cell types and order preserved",
+      "transformations": [
+        "Source Markdown paraphrased; task and explanation sequence preserved",
+        "Source solution code and placeholders restored; only course instruction comments paraphrased",
+        "No historical source outputs transferred as current results"
+      ],
+      "instruction_comment_cells": [
+        8,
+        12
+      ]
+    },
+    {
+      "source": "GD/gd.py",
+      "target": "04-gradient-descent/gradient_descent_mse.py",
+      "source_sha256": "90d92d8c3884e73e911c5bd883f4d501f300d401e37c7a7a65020ba24842393c",
+      "transformations": [
+        "Original mathematical methods restored",
+        "Bounded learning loop, main guard, minimal input/numerical checks",
+        "Unfinished experiment remains explicit; obsolete output comments omitted"
+      ],
+      "details": "RESTORATION.md"
+    }
+  ]
+}

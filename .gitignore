@@ -227,3 +227,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Machine Learning: local datasets and generated artifacts are not published.
+/02-machine-learning/data/*
+!/02-machine-learning/data/README.md
+/02-machine-learning/**/*.csv
+/02-machine-learning/**/*.tsv
+/02-machine-learning/**/*.parquet
+/02-machine-learning/**/*.xlsx
+/02-machine-learning/**/*.xls
+/02-machine-learning/**/*.npy
+/02-machine-learning/**/*.npz
+/02-machine-learning/**/*.pkl
+/02-machine-learning/**/*.pickle
+/02-machine-learning/**/*.joblib
+/02-machine-learning/**/*.zip
+/02-machine-learning/**/*.gz
+/02-machine-learning/**/*.7z
+/02-machine-learning/**/*.tmp
+/02-machine-learning/**/*.bak
+/02-machine-learning/**/*~
+.vscode/
+*.iml
+
+# Local course solutions and audit; exact paths only.
+/02-machine-learning/01-data-preparation/HW_1_Разбор.ipynb
+/02-machine-learning/02-regression-metrics/HW2_Разбор.ipynb
+/02-machine-learning/03-linear-regression/HW3_разбор.ipynb
+/02-machine-learning/04-gradient-descent/HW_4разбор.py
+/AUDIT.md
